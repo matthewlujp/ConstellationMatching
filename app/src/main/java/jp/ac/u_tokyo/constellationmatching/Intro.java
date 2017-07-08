@@ -1,7 +1,9 @@
 package jp.ac.u_tokyo.constellationmatching;
 
+import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.TextView;
 
 public class Intro extends AppCompatActivity {
 
@@ -9,5 +11,8 @@ public class Intro extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.Intro);
+
+
+
     }
 }
