@@ -21,21 +21,30 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
             android:text="同じ星座を見ている人"
+            android:textColor="#99ffff"
             android:textSize="30sp" />
 
         <ImageButton
             android:id="@+id/ChatIcon"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="301dp"
+            android:layout_height="207dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="20dp"
             android:background="#00000000"
+            android:scaleType="centerInside"
             app:srcCompat="@drawable/Chat3" />
 
         <ImageButton
             android:id="@+id/HomeIcon"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="147dp"
+            android:layout_height="105dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="30dp"
             android:background="#00000000"
+            android:scaleType="centerInside"
             app:srcCompat="@drawable/Home" />
 
 
