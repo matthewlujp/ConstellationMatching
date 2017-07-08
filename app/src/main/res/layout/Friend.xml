@@ -17,78 +17,26 @@
         android:background="@drawable/Background1">
 
 
-        <LinearLayout
+        <TextView
+            android:id="@+id/textView"
             android:layout_width="match_parent"
-            android:layout_height="450dp"
-            android:orientation="vertical">
+            android:layout_height="wrap_content"
+            android:text="同じ星座を見ている人"
+            android:textSize="30sp" />
 
-
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="同じ星座を見ている人" />
-
-            <Button
-                android:id="@+id/button15"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="友達のプロフィール"
-                tools:layout_editor_absoluteX="190dp"
-                tools:layout_editor_absoluteY="256dp" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-                <Button
-                    android:id="@+id/button14"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="友達になる"
-                    tools:layout_editor_absoluteX="36dp"
-                    tools:layout_editor_absoluteY="299dp" />
-
-                <Button
-                    android:id="@+id/button13"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="チャット"
-                    tools:layout_editor_absoluteX="102dp"
-                    tools:layout_editor_absoluteY="180dp" />
-
-
-
-            </LinearLayout>
-
-
-
-
-        </LinearLayout>
-
-
-
-
-        <LinearLayout
+        <ImageButton
+            android:id="@+id/ChatIcon"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:orientation="horizontal"
-            tools:layout_editor_absoluteY="8dp"
-            tools:layout_editor_absoluteX="8dp">
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            app:srcCompat="@drawable/Chat3" />
 
-            <Button
-                android:id="@+id/button16"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="ホーム"
-                tools:layout_editor_absoluteX="8dp"
-                tools:layout_editor_absoluteY="0dp" />
-        </LinearLayout>
+        <ImageButton
+            android:id="@+id/HomeIcon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            app:srcCompat="@drawable/Home" />
 
 
     </LinearLayout>

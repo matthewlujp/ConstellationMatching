@@ -14,6 +14,13 @@
         tools:layout_editor_absoluteX="8dp"
         android:background="@drawable/Background1">
 
+        <ImageButton
+            android:id="@+id/AccountIcon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            app:srcCompat="@drawable/AccountIcon" />
+
         <EditText
             android:id="@+id/Name"
             android:layout_width="wrap_content"
@@ -24,11 +31,17 @@
             tools:layout_editor_absoluteX="94dp"
             tools:layout_editor_absoluteY="137dp" />
 
-        <Button
-            android:id="@+id/button"
-            android:layout_width="176dp"
+        <Spinner
+            android:id="@+id/Sex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:id="@+id/NextIcon"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="完了" />
+            android:background="#00000000"
+            app:srcCompat="@drawable/ArrowIcon" />
 
     </LinearLayout>
 
